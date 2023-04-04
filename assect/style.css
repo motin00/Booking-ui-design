@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'parpol';
+}
+.header{
+    height: 100%;
+   background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/banner1.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.header img{
+width: 170px;
+float: left;
+}
+.header{
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+.login-btn{
+    width: 100px;
+    padding: 8px;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    float: right;  
+}
+.header h1{
+    padding-top: 260px;
+    padding-bottom: 0;
+    font-size: 55px;
+}
+.header p{
+    margin: 18px 0px;
+}
+.input-group{
+    width: 90%;
+    max-width: 500px;
+    border-radius: 30px;
+    background: #fff;
+    margin: auto;
+    padding: 2px;
+
+}
+.form-control{
+    border: 0 !important;
+    border-radius:30px 0 0 30px !important;
+    margin: 2px;
+    box-shadow: none !important;
+}
+.input-group-text{
+    width: 100px;
+    background: linear-gradient(#00ff7e,#1f3d90);
+    border: 0 !important;
+    color: #fff;
+    padding: 30 25px !important;
+    box-shadow: none !important;
+    border-radius: 30px !important;
+    margin: 2px;
+}
+.features{
+    padding: 100px 0;
+}
+.features h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.feature-img img{
+    width: 100%;
+}
